@@ -1,6 +1,6 @@
 Name:		texlive-latex-papersize
 Version:	53131
-Release:	1
+Release:	2
 Summary:	Calculate LaTeX settings for any font and paper size
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-papersize
