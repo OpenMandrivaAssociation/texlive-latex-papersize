@@ -3,7 +3,7 @@ Version:	53131
 Release:	2
 Summary:	Calculate LaTeX settings for any font and paper size
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/latex-papersize
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/latex-papersize
 License:	apache2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-papersize.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/latex-papersize.doc.r%{version}.tar.xz
