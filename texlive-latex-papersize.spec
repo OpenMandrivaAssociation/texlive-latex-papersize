@@ -1,5 +1,6 @@
 %global tl_name latex-papersize
 %global tl_revision 79316
+%global tl_bin_links latex-papersize:%{_texmfdistdir}/scripts/latex-papersize/latex-papersize.py
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(latex-papersize.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The package's typical use is when preparing printed material for users
